@@ -14,7 +14,7 @@ a {
 .order {
   cursor: pointer;
 }
-.web {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -25,7 +25,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.stud {
+.studio {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -36,9 +36,7 @@ a {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.page-nav .link:hover,
-.page-nav .link:focus {
-  font-family: 'Roboto', sans-serif;
+.page-nav {
   font-weight: 500;
   font-size: 16px;
 
@@ -47,11 +45,55 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.page-nav .link:hover {
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+.page-nav .link:focus {
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
 .address a {
-  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
+.address .clink {
+  font-weight: 400;
+  font-size: 16px;
 
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address .clink:hover,
+.address .clink:focus {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
 .portf {
   font-weight: 700;
   font-size: 36px;
