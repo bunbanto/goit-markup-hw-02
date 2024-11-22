@@ -10,10 +10,11 @@ ol {
 a {
   text-decoration: none;
 }
+
 .order {
   cursor: pointer;
 }
-.wb {
+.web {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -24,7 +25,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.st {
+.stud {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -46,9 +47,9 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.adress a {
+.address a {
   text-decoration: none;
-  color: #18ffff;
+  color: #434455;
 }
 
 .portf {
